@@ -1,6 +1,4 @@
 import EducationCard from "@/components/EducationCard";
-import { describe } from "node:test";
-import React from "react";
 
 export default function Education() {
   const EduInfo = [
