@@ -1,3 +1,4 @@
+import CurrentProject from "@/components/CurrentProject";
 import FeaturedProject from "@/components/FeaturedProject";
 import React from "react";
 
@@ -21,7 +22,14 @@ export default function ProjectsPage() {
       </div>
       {/** Featured Project */}
       <FeaturedProject />
-      <div></div>
+      {/** Current Project */}
+      <div className="my-6">
+        <h2 className="mt-3 text-3xl font-bold text-primary">
+          Currently Ongoing Projects
+        </h2>
+      </div>
+      <CurrentProject />
+      {/** Previous Projects */}
     </section>
   );
 }

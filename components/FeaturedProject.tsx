@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import CustomButton from "./ui/CustomButton";
 import ImageModal from "./ImageModal";
+import { HiOutlineArrowTopRightOnSquare } from "react-icons/hi2";
 
 export default function FeaturedProject() {
   const [showArchitecture, setShowArchitecture] = useState(false);
@@ -41,7 +42,7 @@ export default function FeaturedProject() {
         <div className="flex h-full flex-col p-10">
           {/* Badge */}
           <span className="w-fit rounded-full border border-secondary-container bg-secondary-container/10 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-secondary">
-            ⭐ Featured Project
+            Featured Project
           </span>
 
           {/* Title */}
@@ -86,7 +87,7 @@ export default function FeaturedProject() {
           </div>
 
           {/* Technologies */}
-          <div className="mt-8 flex flex-wrap gap-3">
+          <div className="mt-8 flex flex-wrap gap-2">
             {[
               "Next.js",
               "NestJS",
@@ -99,18 +100,18 @@ export default function FeaturedProject() {
               <span
                 key={tech}
                 className="
-          rounded-lg
-          border border-outline
-          bg-surface-container-low
-          px-4 py-2
-          text-sm
-          font-medium
-          transition-all
-          duration-200
-          hover:-translate-y-1
-          hover:border-secondary-container
-          hover:bg-secondary-container
-          hover:text-on-secondary-container
+          rounded-full
+                  border
+                  border-outline
+                  px-3
+                  py-1.5
+                  text-sm
+                  transition-all
+                  duration-200
+                  hover:-translate-y-0.5
+                  hover:border-secondary
+                  hover:bg-secondary-container
+                  hover:text-on-secondary-container
         "
               >
                 {tech}
@@ -134,7 +135,8 @@ export default function FeaturedProject() {
               className=" cursor-pointer"
               href="https://d1ie7hcjew8851.cloudfront.net"
             >
-              Demo
+              <HiOutlineArrowTopRightOnSquare className="text-lg" />
+              <span>Demo</span>
             </CustomButton>
           </div>
         </div>
