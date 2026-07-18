@@ -1,4 +1,5 @@
 import SkillCard from "@/components/SkillCard";
+import SpokenLanguageSection from "@/components/SpokenLanguageSection";
 import React from "react";
 
 export default function SkillsPage() {
@@ -34,6 +35,20 @@ export default function SkillsPage() {
     "CI/CD",
     "System Design",
   ];
+  const spoken_languages = [
+    {
+      language: "English",
+      level: "C1",
+    },
+    {
+      language: "German",
+      level: "A1",
+    },
+    {
+      language: "Japanese",
+      level: "A1",
+    },
+  ];
   return (
     <section className="mx-auto max-w-7xl px-6 py-24">
       <div className="mb-16">
@@ -58,6 +73,7 @@ export default function SkillsPage() {
         <SkillCard title="Languages" skills={languageSkills} />
         <SkillCard title="Core Competencies" skills={engineeringSkills} />
       </div>
+      <SpokenLanguageSection languages={spoken_languages} />
     </section>
   );
 }

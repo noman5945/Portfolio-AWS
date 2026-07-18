@@ -29,7 +29,7 @@ export default function FooterSection() {
           </Link>
 
           <Link
-            href="https://linkedin.com/in/your-linkedin"
+            href="https://www.linkedin.com/in/noman5945/?isSelfProfile=false"
             target="_blank"
             aria-label="LinkedIn"
             className="text-on-surface-variant transition-colors hover:text-secondary"

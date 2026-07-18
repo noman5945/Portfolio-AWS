@@ -27,7 +27,7 @@ export default function ContactPage() {
             Email Me
           </CustomButton>
 
-          <CustomButton href="https://linkedin.com/in/yourlinkedin">
+          <CustomButton href="https://www.linkedin.com/in/noman5945/?isSelfProfile=false">
             LinkedIn
           </CustomButton>
           <CustomButton href="https://github.com/noman5945" variant="outline">

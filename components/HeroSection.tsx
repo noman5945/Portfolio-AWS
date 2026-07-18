@@ -70,8 +70,13 @@ export default function HeroSection() {
 
         {/* CTA */}
         <div className="flex flex-wrap gap-4">
-          <CustomButton>Contact Me</CustomButton>
-          <CustomButton variant="outline">Download CV</CustomButton>
+          <CustomButton href="/pages/contact">Contact Me</CustomButton>
+          <a
+            href="/cv/Md_Abdullah_Al_Noman_Backend.pdf"
+            download={"Md Abdullah Al Noman"}
+          >
+            <CustomButton variant="outline">Download CV</CustomButton>
+          </a>
         </div>
       </div>
 
@@ -85,7 +90,7 @@ export default function HeroSection() {
             {/* Main Card */}
             <div className="relative overflow-hidden rounded-2xl border border-outline bg-surface-container shadow-xl">
               <img
-                src="/images/profile.jpg"
+                src="/images/portrait/Portfolio_pic.jpeg"
                 alt="Abdullah Al Noman"
                 className="aspect-4/5 w-full object-cover"
               />
