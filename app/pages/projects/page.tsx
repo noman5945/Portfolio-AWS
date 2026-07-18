@@ -1,5 +1,6 @@
 import CurrentProject from "@/components/CurrentProject";
 import FeaturedProject from "@/components/FeaturedProject";
+import OldProject from "@/components/OldProject";
 import React from "react";
 
 export default function ProjectsPage() {
@@ -12,7 +13,7 @@ export default function ProjectsPage() {
         </p>
 
         <h2 className="mt-3 text-4xl font-bold text-primary">
-          Featured Projects
+          Featured Professional Projects
         </h2>
 
         <p className="mt-4 max-w-2xl text-on-surface-variant">
@@ -24,12 +25,16 @@ export default function ProjectsPage() {
       <FeaturedProject />
       {/** Current Project */}
       <div className="my-6">
-        <h2 className="mt-3 text-3xl font-bold text-primary">
+        <p className="text-sm font-semibold uppercase tracking-[0.25em] text-secondary">
+          Current
+        </p>
+        <h2 className="mt-3 text-2xl font-bold text-primary">
           Currently Ongoing Projects
         </h2>
       </div>
       <CurrentProject />
       {/** Previous Projects */}
+      <OldProject />
     </section>
   );
 }
