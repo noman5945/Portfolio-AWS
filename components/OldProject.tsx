@@ -3,6 +3,15 @@ import CustomButton from "./ui/CustomButton";
 import { FaGithub } from "react-icons/fa";
 
 export default function OldProject() {
+  {
+    /**
+    LMS-live: https://bjet-lms-app-b4488.web.app/login 
+    LMS-Github: https://github.com/ForhadCU/LMS_project_dev-Team_Omega
+    
+    Doctors Portal:https://doctors-portal-cb25d.web.app/
+
+    */
+  }
   const projects = [
     {
       title: "Levis Car Services",
@@ -12,6 +21,15 @@ export default function OldProject() {
       type: "Personal Project",
       link: "https://car-service-83050.web.app/",
       github_link: "https://github.com/noman5945/Carwash-Management-System",
+    },
+    {
+      title: "Learning Management System BJET",
+      description:
+        "A Learning Management System for students of BJET organization, including lesson content management, exam management and Discussion section within students and teachers",
+      technologies: ["React.js", "Node.js", "ExpressJS", "MongoDB"],
+      type: "Training Project",
+      link: "https://bjet-lms-app-b4488.web.app/login",
+      github_link: "https://github.com/ForhadCU/LMS_project_dev-Team_Omega",
     },
     {
       title: "OCR Menu Processing System",
