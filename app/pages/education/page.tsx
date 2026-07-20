@@ -1,4 +1,10 @@
 import EducationCard from "@/components/EducationCard";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Education",
+  description: "Education background of Md Abdullah Al Noman",
+};
 
 export default function Education() {
   const EduInfo = [

@@ -1,6 +1,12 @@
 import SkillCard from "@/components/SkillCard";
 import SpokenLanguageSection from "@/components/SpokenLanguageSection";
+import { Metadata } from "next";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: "Skills",
+  description: "Technical and language skills of Md Abdullah Al Noman",
+};
 
 export default function SkillsPage() {
   const backendSkills = [

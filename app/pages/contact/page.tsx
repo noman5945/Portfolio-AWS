@@ -1,5 +1,11 @@
 import CustomButton from "@/components/ui/CustomButton";
+import { Metadata } from "next";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: "Contact",
+  description: "Contact with Md Abdullah Al Noman",
+};
 
 export default function ContactPage() {
   return (

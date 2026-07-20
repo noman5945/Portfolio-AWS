@@ -1,7 +1,13 @@
 import CurrentProject from "@/components/CurrentProject";
 import FeaturedProject from "@/components/FeaturedProject";
 import OldProject from "@/components/OldProject";
+import { Metadata } from "next";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: "Projects",
+  description: "Project showcase of Md Abdullah Al Noman",
+};
 
 export default function ProjectsPage() {
   return (

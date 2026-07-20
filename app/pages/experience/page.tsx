@@ -1,5 +1,11 @@
 import ExperienceCard from "@/components/ExperienceCard";
+import { Metadata } from "next";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: "Experience",
+  description: "Professional experience record of Md Abdullah Al Noman",
+};
 
 export default function ExperiencePage() {
   const experiences = [
