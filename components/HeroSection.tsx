@@ -90,7 +90,7 @@ export default function HeroSection() {
             {/* Main Card */}
             <div className="relative overflow-hidden rounded-2xl border border-outline bg-surface-container shadow-xl">
               <img
-                src="/images/portrait/Portfolio_pic.jpeg"
+                src="/images/portrait/portrait-2.jpeg"
                 alt="Abdullah Al Noman"
                 className="aspect-4/5 w-full object-cover"
               />
