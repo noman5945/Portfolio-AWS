@@ -1,6 +1,6 @@
 import React from "react";
 import CustomButton from "./ui/CustomButton";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaYoutube } from "react-icons/fa";
 
 export default function OldProject() {
   {
@@ -21,6 +21,7 @@ export default function OldProject() {
       type: "Personal Project",
       link: "https://car-service-83050.web.app/",
       github_link: "https://github.com/noman5945/Carwash-Management-System",
+      video_link: "https://youtu.be/8dkwOIFRnC0?si=2zlCafRuFeEd-xR4",
     },
     {
       title: "Learning Management System BJET",
@@ -120,6 +121,12 @@ export default function OldProject() {
               <CustomButton variant="outline" href={project.link}>
                 View Project
               </CustomButton>
+              {project.video_link && (
+                <CustomButton variant="outline" href={project.video_link}>
+                  <FaYoutube className=" text-lg" />
+                  <span>Demo Video</span>
+                </CustomButton>
+              )}
             </div>
           </article>
         ))}

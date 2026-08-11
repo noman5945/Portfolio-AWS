@@ -24,6 +24,14 @@ const links = [
     href: "/pages/education",
   },
   {
+    title: "Publications",
+    href: "/pages/publications",
+  },
+  {
+    title: "Achievements",
+    href: "/pages/achievements",
+  },
+  {
     title: "Contact",
     href: "/pages/contact",
   },
